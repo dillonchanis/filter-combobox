@@ -1,0 +1,80 @@
+.example[data-filtercombobox-root] {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.example [data-filtercombobox-label] {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+}
+
+.example [data-filtercombobox-input] {
+  width: 100%;
+}
+
+.example [data-filtercombobox-input][aria-expanded="true"] {
+  outline: none;
+}
+
+.example [data-filtercombobox-menu] {
+  padding: 8px 0;
+  margin-top: 12px;
+  border: 1px solid #d1d5dc;
+  background-color: #fbf9fa;
+  border-radius: 6px;
+}
+
+.example [data-filtercombobox-menuitem] {
+  padding: 0 12px;
+}
+
+.example [data-filtercombobox-menuitem][aria-selected="true"],
+.example [data-filtercombobox-menuitem][data-hovered="true"] {
+  background-color: #ebe6e7;
+}
+
+.example [data-filtercombobox-empty] {
+  color: #fb2c36;
+  padding: 0 12px;
+}
+
+.example [data-tags] {
+  display: flex;
+  gap: 2px;
+  flex-wrap: nowrap;
+}
+
+.example [data-tag] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 2px 4px;
+  background-color: #a4f4cf;
+  border-radius: 2px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  border: 1px solid #d1d5dc;
+  border-radius: 6px;
+  margin-top: 12px;
+  height: 44px;
+  padding: 8px 12px;
+}
+
+/** For Custom Tags Example */
+.customTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #4b004f;
+  background-color: #f6cfff;
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
