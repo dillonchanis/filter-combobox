@@ -120,6 +120,7 @@ To remove tags, you can utilize the `FilerCombobox.Button` component's slot prop
   Delete
  </FilterCombobox.Button>
 </FilterCombobox.Tag>
+```
 
 ### Menu
 
